@@ -27,3 +27,6 @@ git merge readme --no-ff  현재 branch에 readme를 merge(병합)한다.
 ff (fast forward)기능은 줄을 자동으로 최대한 한 줄로 만들어 주는 기능이다.
 git remote add origin 저장소주소
 git remote -v # 현재 연결된 저장소 확인
+
+#### Lisense
+이 저장소는 WTFPL 라이센스의 보호를 받습니다.
