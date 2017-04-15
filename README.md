@@ -22,4 +22,8 @@ git diff README.md # README.md 파일의 최근 변경사항 비교
 git diff master readme # master 브랜치를 기준으로 readme 브랜치와 비교
 git diff bf4f332 89cf54b # 커밋의 hash 값으로 커밋 대 커밋 비교
 git diff HEAD~2 # 현재 위치(HEAD) 로부터 2번째 이전 커밋과 비교
-git merge readme --no-ff
+git merge readme --no-ff  현재 branch에 readme를 merge(병합)한다.
+이 때 --no-ff는 ff기능을 끄는 것인데,
+ff (fast forward)기능은 줄을 자동으로 최대한 한 줄로 만들어 주는 기능이다.
+git remote add origin 저장소주소
+git remote -v # 현재 연결된 저장소 확인
