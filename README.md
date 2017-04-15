@@ -22,3 +22,4 @@ git diff README.md # README.md 파일의 최근 변경사항 비교
 git diff master readme # master 브랜치를 기준으로 readme 브랜치와 비교
 git diff bf4f332 89cf54b # 커밋의 hash 값으로 커밋 대 커밋 비교
 git diff HEAD~2 # 현재 위치(HEAD) 로부터 2번째 이전 커밋과 비교
+git merge readme --no-ff
